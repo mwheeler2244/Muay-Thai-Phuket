@@ -343,10 +343,11 @@ textarea {
     bottom: 50%;
     left: 5000%;
     background-color: var(--nav);
-    padding-block: var(--padding-700);
+    padding-block: 100px;
     z-index: 10;
     flex-direction: column;
     align-items: center;
+    min-height: 70dvh;
   }
   .hamburger {
     cursor: pointer;
@@ -379,5 +380,9 @@ textarea {
   }
   footer p {
     font-size: 0.65rem;
+  }
+   .logo img {
+    width: 75px;
+    height: 75px;
   }
 }
