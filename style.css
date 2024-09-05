@@ -129,6 +129,8 @@ nav {
 nav .logo {
   margin-right: auto;
   cursor: pointer;
+    max-width: 75px;
+  max-height: 75px;
 }
 
 .nav__links a {
@@ -382,7 +384,7 @@ textarea {
     font-size: 0.65rem;
   }
    .logo img {
-    width: 75px;
-    height: 75px;
+    max-width: 65px;
+    max-height: 65px;
   }
 }
