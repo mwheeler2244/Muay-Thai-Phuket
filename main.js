@@ -22,3 +22,17 @@ links.forEach((link) => {
     mobileClose.classList.remove("active");
   });
 });
+
+// socials share
+
+document.getElementById(
+  "facebook-share"
+).href = `https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`;
+document.getElementById(
+  "twitter-share"
+).href = `https://twitter.com/share?url=${window.location.href}&text=Check%20out%20this%20Muay%20Thai%20blog!`;
+document.getElementById(
+  "instagram-share"
+).href = `https://www.instagram.com/?url=${encodeURIComponent(
+  window.location.href
+)}`;
