@@ -98,15 +98,21 @@ strong {
 section {
   margin-bottom: var(--margin-700);
 }
-#facebook-share {
+/*=============== SHARE LINKS ===============*/
+
+.facebook-share {
   background-color: #316ff6;
 }
-#twitter-share {
+.twitter-share {
   background-color: black;
 }
-#instagram-share {
+.instagram-share {
   background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
 }
+.linkedin-share {
+  background-color: #316ff6;
+}
+
 .fa-brands {
   padding: 1rem;
 }
@@ -122,11 +128,29 @@ section {
   margin-left: var(--margin-400);
   cursor: pointer;
 }
-.socials a {
+.socials a,
+.socials__share-footer a {
   color: white;
 }
-.socials a:hover {
+.socials a,
+.socials__share-footer a:hover {
   scale: 1.1;
+}
+.footer__share {
+  text-align: center;
+}
+.footer__share P {
+  padding-bottom: 1rem;
+}
+.socials__share-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+.socials__share-footer .fa-brands {
+  padding: 1rem 3rem;
 }
 
 /*=============== NAV ===============*/
@@ -416,5 +440,8 @@ textarea {
   .logo img {
     max-width: 55px;
     max-height: 55px;
+  }
+  .socials {
+    display: none;
   }
 }
