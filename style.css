@@ -179,8 +179,8 @@ nav {
 
 .logo img {
   border-radius: 100vw;
-  width: 65px;
-  height: 65px;
+  width: 55px;
+  height: 55px;
 }
 nav .logo {
   margin-right: auto;
@@ -222,6 +222,22 @@ nav .logo {
 }
 
 /*=============== HOME ===============*/
+
+.hero__img {
+  background-image: url(./assets/hero.JPG);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  z-index: -1;
+}
 
 .main__content > * {
   margin-bottom: var(--margin-800);
@@ -392,6 +408,9 @@ textarea {
 }
 
 @media (max-width: 800px) {
+  .hero__img {
+    background-attachment: scroll;
+  }
   nav {
     padding: var(--padding-400) 8px;
   }
