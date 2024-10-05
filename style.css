@@ -179,6 +179,8 @@ nav {
 
 .logo img {
   border-radius: 100vw;
+  width: 65px;
+  height: 65px;
 }
 nav .logo {
   margin-right: auto;
